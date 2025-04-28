@@ -1,0 +1,34 @@
+#guestbook {
+	border-bottom: 3px solid black;
+	max-height: 500px;
+	margin: 10px 0 20px 0;
+	overflow: auto;
+}
+article.single-guestbook {
+	border: 1px solid black;
+	margin: 10px 0;
+	padding: 20px;
+}
+
+article.single-guestbook:first-child {
+	margin-top: 0;
+}
+
+article.single-guestbook blockquote {
+	margin: 0 10px;
+}
+article.single-guestbook blockquote p {
+	margin: 0;
+}
+article.single-guestbook em {
+	display: inline-block;
+}
+
+form#guestbook_form .form-group {
+	margin: 10px 0;
+}
+
+a.flag {
+	color: red;
+	font-size: 12px;
+}
