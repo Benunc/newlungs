@@ -1,2 +1,4 @@
 # One-time utility scripts
-remove_search.sh 
+remove_search.sh
+remove_comments.sh
+restore_sidebar.sh 
