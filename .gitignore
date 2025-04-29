@@ -5,6 +5,7 @@ restore_sidebar.sh
 add_blank_sidebar.sh 
 clean_wordpress.sh
 remove_block_editor.sh
+remove_give_plugin.sh
 
 # Backup files
 *.bak
