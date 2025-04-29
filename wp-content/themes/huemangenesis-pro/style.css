@@ -1594,6 +1594,33 @@ fieldset {
     margin: 0;
     border: none; }
 
+/* Hide comment form and related elements while keeping existing comments visible */
+#respond,
+.comment-respond,
+.comment-reply-title,
+.comment-reply-link,
+.comment-notes,
+.comment-form,
+.comment-form-comment,
+.comment-form-author,
+.comment-form-email,
+.comment-form-url,
+.comment-form-cookies-consent,
+.form-submit,
+.meta-single .comments,
+.comment-count,
+.comment-count-link,
+.comment-link,
+#reply-title,
+#cancel-comment-reply-link,
+.comment-reply-link,
+.comment-reply-login,
+.comment-edit-link,
+.comment-reply-container,
+.comment-reply-title small {
+    display: none !important;
+}
+
 /** From Treehouse theme */
 .comment-respond, .entry-comments, .entry-pings {
   background-color: #fff;
