@@ -4,6 +4,7 @@ remove_comments.sh
 restore_sidebar.sh
 add_blank_sidebar.sh 
 clean_wordpress.sh
+remove_block_editor.sh
 
 # Backup files
 *.bak
