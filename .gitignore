@@ -6,4 +6,16 @@ add_blank_sidebar.sh
 clean_wordpress.sh
 
 # Backup files
-*.bak 
+*.bak
+
+# Shell scripts
+*.sh
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db 
